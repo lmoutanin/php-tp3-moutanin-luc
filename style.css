@@ -1,17 +1,24 @@
 p,
 label {
   font:
-    1rem 'Fira Sans',
+     
     sans-serif;
 }
 
-input {
-  margin: 0.4rem;
-}
+ 
 p{
-    color: red;
+    color: rgb(9, 9, 9);
 } 
 fieldset{
     width: 300px;
 }
+a:hover {
+ color: black; 
+  text-decoration: underline;
+}
+
  
+ 
+legend,div,input,label,fieldset{
+  text-align: center;
+}

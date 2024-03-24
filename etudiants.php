@@ -8,10 +8,10 @@
 </head>
 <body>
 <h1>Liste des étudiants :</h1>
-<p>
-- Etudiant 1 : <a href= "etudiant.php?id=1">cliquez ici pour plus d'informations</a><br>
-- Etudiant 2 : <a href="etudiant.php?id=2">cliquez ici pour plus d'informations</a><br>
-- Etudiant 3 : <a href="etudiant.php?id=3">cliquez ici pour plus d'informations</a>
+ 
+<p>- Etudiant 1 : <a href= "etudiant.php?id=1" class="rouge">cliquez ici pour plus d'informations</a></p> 
+<p>- Etudiant 2 : <a href="etudiant.php?id=2" class="rouge">cliquez ici pour plus d'informations</a></p> 
+<p>- Etudiant 3 : <a href="etudiant.php?id=3" class="rouge">cliquez ici pour plus d'informations</a></p>
 </p>
 
 </body>

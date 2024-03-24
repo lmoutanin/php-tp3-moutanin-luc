@@ -1,3 +1,6 @@
+
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
 </head>
 <body>
 
-<form action="reponse.php" method="post">
+<form action="bonjour2.php" method="post">
 
 <fieldset>
 <legend> Entrez votre Prénom :</legend> 
@@ -37,12 +40,14 @@
     <input type="radio" id="Madame" name="civilite" value="Madame" />
     <label for="Madame">Madame</label>
   </div>
-
-   
 </fieldset>
-<input type="submit" value="Dire bonjour" />
- 
-</form>
 
+<input type="submit" value="Dire bonjour" />
+</form>
+<?php 
+ 
+echo "{$_POST['langue']} {$_POST['civilite']} {$_POST['prenom']}.";  
+
+?>
 </body>
 </html>

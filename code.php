@@ -1,3 +1,13 @@
+<?php
+require "filtre.php";
+
+
+$code= filtrechar('code');
+ 
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +19,7 @@
 </head>
 
 <body>
-    <?php echo "le code du service choisi est : {$_POST['code']}.";  ?>
+    <?php echo "le code du service choisi est : $code .";  ?>
 </body>
 
 </html>

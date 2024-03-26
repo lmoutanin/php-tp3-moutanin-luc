@@ -1,9 +1,10 @@
 <?php
-include "filtre.php";
+require "filtre.php";
 $langue = filtrechar('langue');
 $civilite = filtrechar('civilite');
 $prenom = filtrechar('prenom');
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
